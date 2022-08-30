@@ -1,0 +1,10 @@
+*/dist
+*/node_modules
+*.DS_Store
+*/*/.DS_Store
+**/.DS_Store
+*/.idea/
+*/yarn.lock
+*/*/yarn.lock
+*/*/*.zip
+*/*.zip

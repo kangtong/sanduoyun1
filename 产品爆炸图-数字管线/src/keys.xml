@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<hw>
+    <page id="0" cname="首页" ename="Home" key="home" type="video">
+        <subPages>
+            <page id="1" next="" prev="" type="video" key="a" ename="Digital transmission line" cname="数字输电线路">
+                <subPages>
+                    <page id="2" next="" prev="" type="video" key="f" ename="M7641en" cname="M7641"></page>
+                    <page id="3" next="" prev="" type="video" key="g" ename="RTN510en" cname="RTN510"></page>
+                    <page id="18" next="" prev="" type="normal" key="delete" ename="close" cname="关闭"></page>
+                    <page id="12" next="" prev="" type="normal" key="s" ename="play" cname="播放"></page>
+                    <page id="13" next="" prev="" type="normal" key="p" ename="pause" cname="暂停"></page>
+                </subPages>
+            </page>
+            <page id="4" next="" prev="" type="video" key="b" ename="Digital oil and gas pipeline" cname="数字油气线路">
+                <subPages>
+                    <page id="5" next="" prev="" type="video" key="h" ename="EF3000en" cname="EF3000"></page>
+                    <page id="6" next="" prev="" type="video" key="i" ename="M7641en" cname="M7641"></page>
+                    <page id="7" next="" prev="" type="video" key="j" ename="IVS1800en" cname="IVS1800"></page>
+                    <page id="19" next="" prev="" type="normal" key="delete" ename="close" cname="关闭"></page>
+                    <page id="14" next="" prev="" type="normal" key="s" ename="play" cname="播放"></page>
+                    <page id="15" next="" prev="" type="normal" key="p" ename="pause" cname="暂停"></page>
+                </subPages>
+            </page>
+            <page id="8" next="" prev="" type="video" key="d" ename="Digital tube tunnel" cname="数字管隧">
+                <subPages>
+                    <page id="9" next="" prev="" type="video" key="k" ename="Altals500en" cname="Altals500"></page>
+                    <page id="10" next="" prev="" type="video" key="l" ename="FusionCube500en" cname="FusionCube500"></page>
+                    <page id="11" next="" prev="" type="video" key="m" ename="AR502Hen" cname="AR502H"></page>
+                    <page id="20" next="" prev="" type="normal" key="delete" ename="close" cname="关闭"></page>
+                    <page id="16" next="" prev="" type="normal" key="s" ename="play" cname="播放"></page>
+                    <page id="17" next="" prev="" type="normal" key="p" ename="pause" cname="暂停"></page>
+                </subPages>
+            </page>
+        </subPages>
+    </page>
+</hw>

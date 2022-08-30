@@ -1,0 +1,131 @@
+html,
+body,
+#app {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.userno {
+    user-select: none;
+    cursor: pointer;
+}
+
+.home {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+.home_btn {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 93.3%;
+    left: 96.3%;
+    cursor: pointer;
+}
+
+.next_btn {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 93.3%;
+    left: 92.5%;
+    cursor: pointer;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.one {
+    width: 11%;
+    height: 8%;
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    cursor: pointer;
+}
+.two {
+    width: 11%;
+    height: 8%;
+    position: absolute;
+    top: 18%;
+    left: 24%;
+    cursor: pointer;
+}
+.three {
+    width: 11%;
+    height: 8%;
+    position: absolute;
+    top: 18%;
+    left: 37.5%;
+    cursor: pointer;
+}
+.four {
+    width: 11%;
+    height: 8%;
+    position: absolute;
+    top: 18%;
+    left: 51.5%;
+    cursor: pointer;
+}
+.five {
+    width: 11%;
+    height: 8%;
+    position: absolute;
+    top: 18%;
+    left: 65%;
+    cursor: pointer;
+}
+.six {
+    width: 11%;
+    height: 8%;
+    position: absolute;
+    top: 18%;
+    left: 79%;
+    cursor: pointer;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.home-icon {
+    background: url("../../assets/imgs/home.png") no-repeat;
+    background-size: 100% 100%;
+    width: 48px;
+    height: 48px;
+}
+.left-icon {
+    background: url("../../assets/imgs/left.png") no-repeat;
+    background-size: 100% 100%;
+    width: 48px;
+    height: 48px;
+}
+.right-icon {
+    background: url("../../assets/imgs/right.png") no-repeat;
+    background-size: 100% 100%;
+    width: 48px;
+    height: 48px;
+}
+.rb0-fixed {
+    top: calc(100% - 78px) !important;
+    left: calc(100% - 78px) !important;
+}
+.rb1-fixed {
+    top: calc(100% - 78px) !important;
+    left: calc(100% - 146px) !important;
+}

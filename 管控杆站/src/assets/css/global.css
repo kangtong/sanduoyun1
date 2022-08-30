@@ -1,0 +1,41 @@
+html,
+body,
+#app {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.home_btn {
+    position: absolute;
+    top: 90%;
+    left: 90%;
+}
+
+.cur {
+    cursor: pointer;
+    user-select: none;
+}
+
+.home {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+.rb0-fixed {
+    top: calc(100% - 78px) !important;
+    left: calc(100% - 78px) !important;
+}
+.rb1-fixed {
+    top: calc(100% - 78px) !important;
+    left: calc(100% - 146px) !important;
+}

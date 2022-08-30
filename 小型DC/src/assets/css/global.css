@@ -1,0 +1,55 @@
+html,
+body,
+#app {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.home {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+.video1container {
+    width: 100%;
+    height: 100%;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.video2container {
+    width: 100%;
+    height: 100%;
+}
+
+.back_btn {
+    cursor: pointer;
+    background: url("../../assets/imgs/back.png") no-repeat;
+    background-size: 100% 100%;
+}
+.home_btn {
+    cursor: pointer;
+    background: url("../../assets/imgs/home.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.deme_btm {
+    cursor: pointer;
+    background: url("../../assets/imgs/right.png") no-repeat;
+    background-size: 100% 100%;
+}

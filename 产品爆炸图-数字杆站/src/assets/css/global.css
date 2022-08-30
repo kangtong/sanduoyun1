@@ -1,0 +1,151 @@
+    html,
+    body,
+    #app {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .home {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+    }
+
+    .video1container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .video2container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .video {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+
+    .cur {
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .check_en {
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 93%;
+        left: 96%;
+        z-index: 2;
+    }
+
+    .home_btn {
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 93%;
+        left: 96%;
+        z-index: 2;
+    }
+
+    .back_btn {
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 72%;
+        left: 90%;
+        z-index: 2;
+    }
+
+    .stop_btn {
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 80%;
+        left: 90%;
+        z-index: 2;
+    }
+
+    .jianceone_btn {
+        width: 24%;
+        height: 25%;
+        position: absolute;
+        top: 46%;
+        left: 21.5%;
+    }
+
+    .guankongone_btn {
+        width: 24%;
+        height: 24%;
+        position: absolute;
+        top: 16.5%;
+        left: 58%;
+    }
+
+    .guankongtwo_btn {
+        width: 24%;
+        height: 24%;
+        position: absolute;
+        top: 43.5%;
+        left: 58%;
+    }
+
+    .jiancetwo_btn {
+        width: 24%;
+        height: 25%;
+        position: absolute;
+        top: 46%;
+        left: 47%;
+    }
+
+    .jiancethree_btn {
+        width: 24%;
+        height: 25%;
+        position: absolute;
+        top: 46%;
+        left: 72.5%;
+    }
+
+    .zhihuione_btn {
+        width: 24%;
+        height: 24%;
+        position: absolute;
+        top: 16.5%;
+        left: 58%;
+    }
+
+    .zhihuitwo_btn {
+        width: 24%;
+        height: 24%;
+        position: absolute;
+        top: 43.5%;
+        left: 58%;
+    }
+    .en{
+        background: url("../../assets/imgs/en.png") no-repeat;
+        background-size: 100% 100%;
+    }
+    .cn{
+        background: url("../../assets/imgs/cn.png") no-repeat;
+        background-size: 100% 100%;
+    }
+    .rb0-fixed {
+        top: calc(100% - 78px) !important;
+        left: calc(100% - 78px) !important;
+    }
+    .rb1-fixed {
+        top: calc(100% - 78px) !important;
+        left: calc(100% - 146px) !important;
+    }

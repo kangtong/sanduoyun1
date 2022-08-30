@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<hw>
+    <page id="0" cname="首页" ename="Home" key="home" type="normal">
+        <subPages>
+            <page id="1" next="" prev="" type="normal" key="a" ename="Pain point" cname="痛点"></page>
+            <page id="9" next="" prev="" type="normal" key="l" ename="loop" cname="循环"></page>
+            <page id="2" next="" prev="" type="normal" key="b" ename="Solution" cname="解决方案">
+                <subPages>
+                    <page id="3" next="" prev="" type="normal" key="d" ename="environmental monitoring" cname="环境监测"></page>
+                    <page id="4" next="" prev="" type="normal" key="f" ename="All way perception" cname="全路感知"></page>
+                    <page id="5" next="" prev="" type="normal" key="g" ename="Line patrol inspection" cname="线路巡检"></page>
+                    <page id="6" next="" prev="" type="normal" key="h" ename="Multi pole in one" cname="多杆合一"></page>
+                    <page id="7" next="" prev="" type="normal" key="i" ename="Pipe tunnel monitoring" cname="管隧监测"></page>
+                    <page id="8" next="" prev="" type="normal" key="j" ename="Station management" cname="场站管理"></page>
+                </subPages>
+            </page>
+        </subPages>
+    </page>
+</hw>

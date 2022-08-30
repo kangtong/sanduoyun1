@@ -1,0 +1,221 @@
+    html,
+    body,
+    #app {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .home {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+    }
+
+    .video1container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .video2container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .video {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+
+    .cur {
+        cursor: pointer;
+        user-select: none;
+        z-index: 2;
+    }
+
+    .check_en {
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 93%;
+        left: 96%;
+    }
+
+    .home_btn {
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 93%;
+        left: 96%;
+    }
+
+    .back_btn {
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 93%;
+        left: calc(96% - 72px);
+    }
+    .lvse{
+        width: 11%;
+        height: 4%;
+        position: absolute;
+        top: 29%;
+        left: 22%;
+    }
+    .enlvse{
+        width: 21%;
+        height: 4%;
+        position: absolute;
+        top: 29%;
+        left: 13%;
+    }
+    .suanli{
+        width: 8.5%;
+        height: 4%;
+        position: absolute;
+        top: 29%;
+        left: 35.5%;
+    }
+    .ensuanli{
+        width: 18.5%;
+        height: 4%;
+        position: absolute;
+        top: 29%;
+        left: 36.5%;
+    }
+    .shuniu{
+        width: 21%;
+        height: 7%;
+        position: absolute;
+        top: 11%;
+        left: 75%;
+        /*border: 1px solid red;*/
+    }
+    .dsxc{
+        width: 21%;
+        height: 7%;
+        position: absolute;
+        top: 44%;
+        left: 75%;
+        /*border: 1px solid red;*/
+    }
+    .dsxcJiejue{
+        width: 12%;
+        height: 5%;
+        position: absolute;
+        top: 87%;
+        left: 76%;
+        /*border: 1px solid red;*/
+    }
+    .dsxx{
+        width: 11%;
+        height: 4%;
+        position: absolute;
+        top: 3.5%;
+        left: 49%;
+        /*border: 1px solid red;*/
+    }
+    .dsxs{
+        width: 11%;
+        height: 4%;
+        position: absolute;
+        top: 3.5%;
+        left: 60%;
+        /*border: 1px solid red;*/
+    }
+
+    .dsxc1{
+        width: 11%;
+        height: 4%;
+        position: absolute;
+        top: 3.5%;
+        left: 38%;
+        /*border: 1px solid red;*/
+    }
+    .zhileng{
+        width: 23%;
+        height: 6%;
+        position: absolute;
+        top: 18.5%;
+        left: 32%;
+        /*border: 1px solid red;*/
+    }
+    .zhileng1{
+        width: 5%;
+            height: 10%;
+            position: absolute;
+            top: 58.5%;
+            left: 31%;
+            /* border: 1px solid red; */
+    }
+    .gongdian1{
+        width: 6%;
+            height: 12%;
+            position: absolute;
+            top: 54.5%;
+            left: 18%;
+            /* border: 1px solid red; */
+    }
+    .qita1{
+            width: 7%;
+            height: 13%;
+            position: absolute;
+            top: 51.5%;
+            left: 39.5%;
+    }
+    .zhileng2{
+        width: 4%;
+            height: 9%;
+            position: absolute;
+            top: 63.5%;
+            left: 26%;
+    }
+    .gongdian2{
+        width: 4%;
+            height: 8%;
+            position: absolute;
+            top: 57.5%;
+            left: 20%;
+    }
+    .qita2{
+           width: 4%;
+           height: 9%;
+           position: absolute;
+           top: 68.5%;
+           left: 45.5%;
+    }
+    .gongdian{
+        width: 23%;
+        height: 7%;
+        position: absolute;
+        top: 26.5%;
+        left: 32%;
+        /*border: 1px solid red;*/
+    }
+    .qita{
+        width: 23%;
+        height: 6%;
+        position: absolute;
+        top: 35.5%;
+        left: 32%;
+        /*border: 1px solid red;*/
+    }
+    .en{
+        background: url("../../assets/imgs/en.png") no-repeat;
+        background-size: 100% 100%;
+    }
+    .cn{
+        background: url("../../assets/imgs/cn.png") no-repeat;
+        background-size: 100% 100%;
+    }
